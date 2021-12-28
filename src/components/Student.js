@@ -43,7 +43,7 @@ export default function Student({
     <>
       <Card className="my-3 p-4">
         <Row>
-          <Col md={2}>
+          <Col md={3}>
             <Image
               src={img}
               className="img"
@@ -53,8 +53,8 @@ export default function Student({
             />
           </Col>
 
-          <Col md={9}>
-            <h1> {`${firstName} ${lastName}`}</h1>
+          <Col md={8}>
+            <h2> {`${firstName} ${lastName}`}</h2>
             <ListGroup variant="flush">
               <ListGroup.Item className="info"> Email: {email} </ListGroup.Item>
               <ListGroup.Item className="info">

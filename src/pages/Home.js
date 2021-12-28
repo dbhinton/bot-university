@@ -87,7 +87,8 @@ function Home() {
 
   return (
     <>
-      <Container>
+      <Container className='my-2'>
+        <h1>Bot University</h1>
         <NameSearch nameSearch={setStudentName} />
         <TagSearch tagSearch={setStudentTag} />
 
