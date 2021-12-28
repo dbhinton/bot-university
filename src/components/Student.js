@@ -104,8 +104,8 @@ export default function Student({
               placeholder="Add a tag"
             />
           </Col>
-          <Col md={1}>
-            <Button variant="light" className="button" onClick={handleClick}>
+          <Col className='my-3' md={1}>
+            <Button  variant="light" className="button" onClick={handleClick}>
               {showTestScores ? "-" : "+"}
             </Button>
           </Col>
